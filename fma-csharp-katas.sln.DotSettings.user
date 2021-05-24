@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1de9fb19_002Dcc53_002D4c97_002D8997_002D7e512016ce25/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnFizzWhenNumberIsDivisibleBy5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould.ReturnFizzWhenNumberIsDivisibleBy5&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=47b59bd0_002D3b85_002D4542_002Da6e1_002D8613e5ba494f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnFizz_WhenNumberIsDivisibleBy3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould.ReturnFizz_WhenNumberIsDivisibleBy3&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould.ReturnFizzWhenNumberIsDivisibleBy3&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78394e5c_002Dab22_002D4e1c_002D9e0c_002Dfec18dcc43ca/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReturnFizzWhenNumberIsDivisibleBy5 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

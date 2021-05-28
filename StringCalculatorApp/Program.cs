@@ -6,7 +6,11 @@ namespace StringCalculatorApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Enter number: ");
+            var answer= Console.ReadLine();
+
+            var sc = new StringCalculator();
+            sc.StringCalculation(answer);
         }
     }
 }

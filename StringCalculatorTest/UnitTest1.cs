@@ -54,7 +54,7 @@ namespace StringCalculatorTest
         [Theory]
         [InlineData("1,2,3", 6)]
         [InlineData("3,5,3,9", 20)]
-        public void TakeXAmountOfStringsWithCommasReturnSumOfNumber(string values, int sumOfValues)
+        public void TakeAnyAmountOfStringsWithCommasReturnSumOfNumber(string values, int sumOfValues)
         {
             // Arrange
             var fbc = new StringCalculator();
@@ -81,19 +81,21 @@ namespace StringCalculatorTest
             Assert.Equal(sumOfValues, result);
         }
         
-        // [Theory]
+        [Theory]
         // [InlineData("//;\n1;2", 3)]
-        // public void TakeStringsWithSingleCharacterDelimiter(string values, int sumOfValues)
-        // {
-        //     // Arrange
-        //     var fbc = new StringCalculator();
-        //     
-        //     // Act
-        //     var result = fbc.StringCalculation(values);
-        //
-        //     // Assert
-        //     Assert.Equal(sumOfValues, result);
-        // }
+        [InlineData("1,2\n3\\4", 10)]
+   
+        public void TakeStringsWithSingleCharacterDelimiter(string values, int sumOfValues)
+        {
+            // Arrange
+            var fbc = new StringCalculator();
+            
+            // Act
+            var result = fbc.StringCalculation(values);
+        
+            // Assert
+            Assert.Equal(sumOfValues, result);
+        }
 
     }
 }

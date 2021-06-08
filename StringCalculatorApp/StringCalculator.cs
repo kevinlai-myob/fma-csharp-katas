@@ -33,7 +33,10 @@ namespace StringCalculatorApp
         private int ExtractNumberListFromCommaAndLineBreaks(string numbers)
         {
             var numberList = new List<int>();
-            foreach (string number in numbers.Split(',', '\n'))
+            var delimiterArr = new [] {",", "\n"};
+        // method
+        var splitNumbers = numbers.Split(delimiterArr, StringSplitOptions.RemoveEmptyEntries);
+        foreach (string number in splitNumbers)
             {
                 numberList.Add(int.Parse(number));
             }

@@ -1,29 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 
 namespace TictactoeApp
 {
     class Program
     {
+        static readonly Player PlayerOne = new Player("1", 'x');
+        static readonly Player PlayerTwo = new Player("2", 'o');
+        static Player _currentPlayer = PlayerOne;
         
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var playerOne = new Player("1", 'x');
-            var playerTwo = new Player("2", 'o');
+            // var playerOne = new Player("1", 'x');
+            // var playerTwo = new Player("2", 'o');
+            // var currentPlayer = playerOne;
+            
             var board = new Board();
             
             int turns = 0;
-            
             ConsoleMessage.WelcomeMessage();
             board.InitializeBoard();
-            // print empty board
-            
-            // 
-            
+
             while (turns < 9)
             {
-                var userPrompt = ConsoleMessage.AskForCoordinate(playerOne).Split(',');
+                var userPrompt = ConsoleMessage.GetCoordinates(_currentPlayer).Split(',');
                 
                 var coord = new List<int>();
                 // parse the coord
@@ -32,9 +32,14 @@ namespace TictactoeApp
                     coord.Add(int.Parse(number));
                 }
                 // set the coord in board
-                board.SetBoard(coord, playerOne.Symbol);
-                
+                board.SetBoard(coord, _currentPlayer.Symbol);
+
                 // print the board after coord has been provided
+                board.GetCurrentBoard();
+                
+                // Check winning combo
+
+                _currentPlayer = NextPlayer();
                 turns++;
             }
             // NextMove(playerOne, playerTwo);
@@ -46,13 +51,14 @@ namespace TictactoeApp
             return "yes";
         }
 
-        public static string NextPlayer(Player player)
+        public static Player NextPlayer()
         {
-            if ()
+            if (_currentPlayer == PlayerOne)
             {
-                return playerOne;
+                return PlayerTwo;
             }
-            return
+        
+            return PlayerOne;
         }
     }
 }

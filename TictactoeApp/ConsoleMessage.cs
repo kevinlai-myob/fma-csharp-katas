@@ -18,7 +18,7 @@ namespace TictactoeApp
         
         
 
-        public static string AskForCoordinate(Player player)
+        public static string GetCoordinates(Player player)
         {
             Console.Write($"Player {player.Name} enter a coord x,y to place your {player.Symbol} or enter 'q' to give up: ");
             var answer= Console.ReadLine();

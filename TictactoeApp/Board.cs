@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace TictactoeApp
 {
@@ -16,44 +17,42 @@ namespace TictactoeApp
                 {',',',',','},
                 {',',',',','}
             };
+            
             return BoardGrid;
         }
 
-        public char[,] GetCurrentBoard()
+        
+        public void GetCurrentBoard()
         {
             // return the current board after the coordinate has been set
-            return BoardGrid;
-
+            for (int row = 0; row < 3; row++)
+            {
+                for (int col= 0; col < 3; col++)
+                {
+                    Console.Write(BoardGrid[row,col]);
+                }
+                Console.Write(Environment.NewLine);
+            }
         }
 
         public void SetBoard(List<int> coordinate, char symbol)
         {
             BoardGrid[coordinate[0] - 1, coordinate[1] - 1] = symbol;
+            
         }
-        
-        //
-        // var turnCount = 0;
-        //
-        // for (int row = 0; row < rowLength; row++)
-        // {
-        //     for (int col = 0; col < colLength; col++)
-        //     {
-        //         boardGrid[coord[0] - 1, coord[1] - 1] = player;
-        //         // Console.Write($"{boardGrid[row, col]} ");
-        //         newBoardGrid += boardGrid[row, col];
-        //         Console.Write(newBoardGrid);
-        //     }
-        //     // print new line at the end of colLength
-        //     Console.Write(Environment.NewLine);
-        //     turnCount++;
-        // }
-        //
-        // Console.WriteLine(newBoardGrid);
-        //
-        // // return newBoardGrid;
-        //
-        // // return turnCount AND the new string of boardGrid
 
-        
+        public string CheckWinningCombinations(string currentSymbol)
+        {
+            // 00 01 02
+            //     10 11 12
+            //         20 21 22
+            //             00 10 20
+            //                 01 11 21
+            //                     02 12 22
+            //                         00 11 22
+            //                             02 11 20
+            BoardGrid[0][0] == BoardGrid[1][2] && BoardGrid[1][1] == BoardGrid[1][2];
+        }
+
     }
 }

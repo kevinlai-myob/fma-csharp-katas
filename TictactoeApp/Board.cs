@@ -1,8 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.SymbolStore;
-using System.Linq;
-using System.Runtime.InteropServices;
 
 namespace TictactoeApp
 {
@@ -41,18 +38,47 @@ namespace TictactoeApp
             
         }
 
-        public string CheckWinningCombinations(string currentSymbol)
+        public bool CheckWinningCombinations(char currentSymbol)
         {
-            // 00 01 02
-            //     10 11 12
-            //         20 21 22
-            //             00 10 20
-            //                 01 11 21
-            //                     02 12 22
-            //                         00 11 22
-            //                             02 11 20
-            BoardGrid[0][0] == BoardGrid[1][2] && BoardGrid[1][1] == BoardGrid[1][2];
+            return IsHorizontalVictory(currentSymbol) 
+                   || IsVerticalVictory(currentSymbol) 
+                   || IsDiagonalVictory(currentSymbol);
         }
+        
+        private bool IsHorizontalVictory(char currentSymbol)
+        {
+            for(int row = 0; row <= 2; row++)
+            {
+                if(BoardGrid[0,row] == currentSymbol && BoardGrid[1,row] == currentSymbol && BoardGrid[2,row] == currentSymbol)
+                    return true;
+            }
+            return false;
+        }
+        
+        private bool IsVerticalVictory(char currentSymbol)
+        {
+            for(int col = 0; col <= 2; col++)
+            {
+                if(BoardGrid[col,0] == currentSymbol && BoardGrid[col,1] == currentSymbol && BoardGrid[col,2] == currentSymbol)
+                    return true;
+            }
+            return false;
+        }
+        
+        private bool IsDiagonalVictory(char currentSymbol)
+        {
+            for(int col = 0; col <= 2; col++)
+            {
+                if(BoardGrid[0,0] == currentSymbol && BoardGrid[1,1] == currentSymbol && BoardGrid[2,2] == currentSymbol)
+                    return true;
+                if(BoardGrid[0,2] == currentSymbol && BoardGrid[1,1] == currentSymbol && BoardGrid[2,0] == currentSymbol)
+                    return true;
+            }
+            return false;
+        }
+
+        
+        
 
     }
 }

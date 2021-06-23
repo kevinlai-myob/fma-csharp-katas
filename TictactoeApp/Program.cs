@@ -38,17 +38,15 @@ namespace TictactoeApp
                 board.GetCurrentBoard();
                 
                 // Check winning combo
+                if (board.CheckWinningCombinations(_currentPlayer.Symbol))
+                {
+                    ConsoleMessage.AnnounceWinners(_currentPlayer);
+                    break;
+                }
 
                 _currentPlayer = NextPlayer();
                 turns++;
             }
-            // NextMove(playerOne, playerTwo);
-            
-        }
-
-        public static string NextMove(Player player)
-        {
-            return "yes";
         }
 
         public static Player NextPlayer()
@@ -57,7 +55,6 @@ namespace TictactoeApp
             {
                 return PlayerTwo;
             }
-        
             return PlayerOne;
         }
     }

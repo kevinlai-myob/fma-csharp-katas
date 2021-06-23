@@ -1,53 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 namespace TictactoeApp
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            ConsoleMessage.AppStartMessage();
-            var userPrompt = ConsoleMessage.AskForCoordinate();
+            var playerOne = new Player("1", 'x');
+            var playerTwo = new Player("2", 'o');
+            var board = new Board();
             
-            // Console.Write("Player 1 enter a coord x,y to place your X or enter 'q' to give up: ");
-            // var answer= Console.ReadLine();
-
-            var coord = new List<int>();
-            // method
-            foreach (string number in userPrompt.Split(','))
+            int turns = 0;
+            
+            ConsoleMessage.WelcomeMessage();
+            board.InitializeBoard();
+            // print empty board
+            
+            // 
+            
+            while (turns < 9)
             {
-                coord.Add(int.Parse(number));
+                var userPrompt = ConsoleMessage.AskForCoordinate(playerOne).Split(',');
+                
+                var coord = new List<int>();
+                // parse the coord
+                foreach (string number in userPrompt)
+                {
+                    coord.Add(int.Parse(number));
+                }
+                // set the coord in board
+                board.SetBoard(coord, playerOne.Symbol);
+                
+                // print the board after coord has been provided
+                turns++;
             }
-
-            Console.WriteLine(coord);
-
-            var symbol = "x";
+            // NextMove(playerOne, playerTwo);
             
-            Board.InitializeBoard(coord, symbol);
-            
-            // var boardGrid = new string[3, 3]
-            // {
-            //     {".", ".", "."},
-            //     {".", ".", "."},
-            //     {".", ".", "."}
-            // };
-            // Console.WriteLine(boardGrid);
-            //
-            // // locate [0,1] as 'X;
-            // for (int i = 0; i < 4; i++)
-            // {
-            //     for (int j = 0; j < 4; j++)
-            //     {
-            //         boardGrid[coord[0], coord[1]] = "x";
-            //     }
-            // }
-            //
-            // Join with space
-            
-            Console.WriteLine(string.Join(" ", boardGrid));
-            // for every item at the interval of 3, join a new line
         }
-        
+
+        public static string NextMove(Player player)
+        {
+            return "yes";
+        }
+
+        public static string NextPlayer(Player player)
+        {
+            if ()
+            {
+                return playerOne;
+            }
+            return
+        }
     }
 }

@@ -4,19 +4,24 @@ namespace TictactoeApp
 {
     public class ConsoleMessage
     {
-        public static void AppStartMessage()
+        public static void WelcomeMessage()
         {
             Console.Clear();
             Console.WriteLine("Welcome to Tic Tac Toe!");
-            Console.WriteLine("Here's the current board:");
-            Console.WriteLine(". . ." + "\r\n" + ". . ." + "\r\n" +  ". . ." + "\r\n" );
         }
 
-        public static string AskForCoordinate()
+        public static void DisplayNewBoard(Board board)
         {
-            Console.Write("Player 1 enter a coord x,y to place your X or enter 'q' to give up: ");
-            var answer= Console.ReadLine();
+            Console.WriteLine("Here's the current board:");
+            // Console.WriteLine(board.GetCurrentBoard());
+        }
+        
+        
 
+        public static string AskForCoordinate(Player player)
+        {
+            Console.Write($"Player {player.Name} enter a coord x,y to place your {player.Symbol} or enter 'q' to give up: ");
+            var answer= Console.ReadLine();
             return answer;
         }
     }

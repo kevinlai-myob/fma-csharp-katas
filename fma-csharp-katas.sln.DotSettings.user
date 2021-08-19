@@ -1,25 +1,16 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1de9fb19_002Dcc53_002D4c97_002D8997_002D7e512016ce25/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnFizzWhenNumberIsDivisibleBy5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0bb8f83c_002D3eec_002D4398_002Dac8e_002Da313463cf54e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnshuffleDeckReturnShuffledDdeck" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould.ReturnFizzWhenNumberIsDivisibleBy5&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould.ReturnFizz_WhenNumberIsDivisibleBy3&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::EDBD23E0-14E6-4145-84FC-54456D66D3A6::net5.0::StringCalculatorTest.StringCalculatorShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.GameTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=29749113_002Dfd27_002D40cb_002D9150_002D4745314a2988/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TakeXAmountOfStringsReturnSumOfNumber" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af71af69_002De587_002D4731_002D930a_002D0a44c57529b6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GameTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::EDBD23E0-14E6-4145-84FC-54456D66D3A6::net5.0::StringCalculatorTest.StringCalculatorShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.GameTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=47b59bd0_002D3b85_002D4542_002Da6e1_002D8613e5ba494f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnFizz_WhenNumberIsDivisibleBy3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e280597d_002Df1a4_002D4f4d_002Da2fd_002Dc13d5629a82a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Given2CardsReturnCorrectValue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould.ReturnFizz_WhenNumberIsDivisibleBy3&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould.ReturnFizzWhenNumberIsDivisibleBy3&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78394e5c_002Dab22_002D4e1c_002D9e0c_002Dfec18dcc43ca/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnFizzWhenNumberIsDivisibleBy5 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::846982D7-373F-42F1-B5EE-026DDF9D29C3::net5.0::FizzbuzzTest.FizzbuzzAppShould&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::EDBD23E0-14E6-4145-84FC-54456D66D3A6::net5.0::StringCalculatorTest.StringCalculatorShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.HandTest.Given2CardsReturnCorrectValue&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

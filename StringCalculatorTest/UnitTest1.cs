@@ -82,7 +82,7 @@ namespace StringCalculatorTest
         }
         
         [Theory]
-        // [InlineData("//;\n1;2", 3)]
+        [InlineData("//;\n1;2", 3)]
         [InlineData("1,2\n3\\4", 10)]
    
         public void TakeStringsWithSingleCharacterDelimiter(string values, int sumOfValues)
@@ -96,6 +96,21 @@ namespace StringCalculatorTest
             // Assert
             Assert.Equal(sumOfValues, result);
         }
+        
+        [Theory]
+        [InlineData("1,2\n3\\4", 10)]
+        public void NegativeNotAloowed(string values, int sumOfValues)
+        {
+            // Arrange
+            var fbc = new StringCalculator();
+            
+            // Act
+            var result = fbc.StringCalculation(values);
+        
+            // Assert
+            Assert.Equal(sumOfValues, result);
+        }
+
 
     }
 }

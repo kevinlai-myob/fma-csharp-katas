@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
+using System.Linq;
 
 namespace TictactoeApp
 {
@@ -10,14 +12,17 @@ namespace TictactoeApp
         {
             BoardGrid = new char[3, 3]
             {
-                {',',',',','},
-                {',',',',','},
-                {',',',',','}
+                {'.','.','.'},
+                {'.','.','.'},
+                {'.','.','.'}
             };
             
             return BoardGrid;
         }
 
+        
+        private readonly IList<Coordinates> playedCoordinates = new List<Coordinates>();
+        private Coordinates currentCoordinate;
         
         public void GetCurrentBoard()
         {
@@ -32,18 +37,29 @@ namespace TictactoeApp
             }
         }
 
-        public void SetBoard(List<int> coordinate, char symbol)
+        // Given that it is a valid position ( not outOfBound) AND it has not been placed before
+        // we want to ADD the coordinates from userPrompt
+        public void SetBoard(char symbol)
         {
-            BoardGrid[coordinate[0] - 1, coordinate[1] - 1] = symbol;
-            
+            playedCoordinates.Add(currentCoordinate);
+            Console.WriteLine($"currentCoordinate is {currentCoordinate}");
+            // BoardGrid[currentCoordinate[0] - 1, currentCoordinate[1] - 1] = symbol;
         }
 
-        public bool CheckWinningCombinations(char currentSymbol)
+        // public void SetBoard(Coordinates coordinates,char symbol)
+        // {
+        //     // var isCoordinateExist = playedCoordinates.Any(square => square == coordinate.ro);
+        //     playedCoordinates.Add(currentCoordinate);
+        //     BoardGrid[playedCoordinates[0] - 1, playedCoordinates[1] - 1] = symbol;
+        // }
+        
+        public bool CheckVictory(char currentSymbol)
         {
             return IsHorizontalVictory(currentSymbol) 
                    || IsVerticalVictory(currentSymbol) 
                    || IsDiagonalVictory(currentSymbol);
         }
+        
         
         private bool IsHorizontalVictory(char currentSymbol)
         {
@@ -76,6 +92,16 @@ namespace TictactoeApp
             }
             return false;
         }
+
+        public bool isValidCoordinate()
+        {
+            return currentCoordinate.Col > 2 || currentCoordinate.Row > 2;
+        }
+
+        // public bool isEmptyPosition()
+        // {
+        //     return 
+        // }
 
         
         

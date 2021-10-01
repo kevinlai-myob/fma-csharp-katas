@@ -2,15 +2,68 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0bb8f83c_002D3eec_002D4398_002Dac8e_002Da313463cf54e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnshuffleDeckReturnShuffledDdeck" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.GameTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6E6B3C01-85D3-439D-90DD-C761EE04C91A::net5.0::Pangram.UnitTest1.GivenASentenceIsEmptyString_ShouldReturnFalse&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af71af69_002De587_002D4731_002D930a_002D0a44c57529b6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GameTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=30d8579c_002Dc6d9_002D414e_002Db884_002D78922180010c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BlockShould #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=36f471a6_002Dbfce_002D4156_002D8a3b_002D5a143c6021f2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6E6B3C01-85D3-439D-90DD-C761EE04C91A::.NETCoreApp,Version=v3.1::Pangram.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A7461774-2327-4A08-893C-0507E3E08E10::.NETCoreApp,Version=v3.1::Acronym.UnitTest1.Basic&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A7461774-2327-4A08-893C-0507E3E08E10::.NETCoreApp,Version=v3.1::Acronym.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::436939E3-A6F1-4B5A-A2E5-0FF30CE1E4CD::.NETCoreApp,Version=v3.1::SpaceAge.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.GameTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::ABC.BlockShould.GivenALetter_ReturnTrue&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3c1cf684_002D3951_002D43ec_002Da18a_002D2bb30784b684/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BlockShould #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e45d911_002D8a7b_002D456d_002D8450_002D9541619eb0f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BlockShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a912058f_002Dec5b_002D4b34_002D9f60_002Dc95097412b0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BlockShould #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af71af69_002De587_002D4731_002D930a_002D0a44c57529b6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GameTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.GameTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6E6B3C01-85D3-439D-90DD-C761EE04C91A::net5.0::Pangram.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6E6B3C01-85D3-439D-90DD-C761EE04C91A::.NETCoreApp,Version=v3.1::Pangram.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::ABC.BlockShould.GivenALetter_ReturnTrue&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::ABC.BlockShould&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c50a4846_002D11ec_002D4bcc_002Daf4b_002D0040d8944764/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BlockShould #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e280597d_002Df1a4_002D4f4d_002Da2fd_002Dc13d5629a82a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Given2CardsReturnCorrectValue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.HandTest.Given2CardsReturnCorrectValue&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f554257c_002D6787_002D47ab_002D9ac7_002De47b72a96b09/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnitTest1 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6E6B3C01-85D3-439D-90DD-C761EE04C91A::.NETCoreApp,Version=v3.1::Pangram.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A7461774-2327-4A08-893C-0507E3E08E10::.NETCoreApp,Version=v3.1::Acronym.UnitTest1.Basic&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A7461774-2327-4A08-893C-0507E3E08E10::.NETCoreApp,Version=v3.1::Acronym.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::436939E3-A6F1-4B5A-A2E5-0FF30CE1E4CD::.NETCoreApp,Version=v3.1::SpaceAge.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::8097FC32-DF8D-4DE3-9D5A-2D8FFB643CA5::.NETCoreApp,Version=v3.1::BlackjackTests.GameTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::ABC.BlockShould.GivenALetter_ReturnTrue&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D10063C8-F410-4A9F-B7A3-579E3A96C42A::.NETCoreApp,Version=v3.1::Abc.BlockShould&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

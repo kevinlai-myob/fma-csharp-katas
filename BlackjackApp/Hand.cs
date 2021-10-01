@@ -8,7 +8,6 @@ namespace BlackjackApp
 
         public int Value
         {
-            // write conditions if else ( if ace = 1 or 11)
             get
             {
                 var points = 0;
@@ -18,15 +17,12 @@ namespace BlackjackApp
                 }
 
                 return points;
-                
             }
         }
+        
         public Hand(List<Card> cards)
         {
             Cards = cards;
-            
         }
-        
-
     }
 }

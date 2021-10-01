@@ -30,7 +30,6 @@ namespace BlackjackApp
                     newDeck.Add(newCard);
                 }
             }
-
             Cards = newDeck;
         }
         
